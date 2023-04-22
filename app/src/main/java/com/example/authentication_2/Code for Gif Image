@@ -1,0 +1,19 @@
+1. Implementation
+implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.19'
+
+2. Calling in the .xml coding
+<pl.droidsonroids.gif.GifImageView
+
+3. Logic to make it a progress bar
+val handler = Handler()
+        handler.postDelayed({
+            val intent = Intent(this, DashboardActivity::class.java)
+            startActivity(intent)
+            finish()
+        }, 5000)
+
+4. Logic to remove the status and action bar for the Activity
+window.setFlags(
+            WindowManager.LayoutParams.FLAG_FULLSCREEN,
+            WindowManager.LayoutParams.FLAG_FULLSCREEN
+        )
