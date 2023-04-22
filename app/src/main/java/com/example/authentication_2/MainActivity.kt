@@ -23,8 +23,6 @@ class MainActivity : AppCompatActivity() {
       lateinit var mCreatebtn:Button
       lateinit var mLoginbtn:Button
 
-
-
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
