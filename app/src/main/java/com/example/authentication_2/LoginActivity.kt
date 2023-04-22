@@ -41,7 +41,7 @@ class LoginActivity : AppCompatActivity() {
 
             val cursor: Cursor = db.rawQuery("SELECT * FROM users WHERE email = ? AND password = ?", arrayOf(email, password))
             if (cursor.moveToFirst()) {
-                val intent = Intent(this, DashboardActivity::class.java)
+                val intent = Intent(this, SplashScreenActivity::class.java)
                 startActivity(intent)
                 finish()
             } else {
