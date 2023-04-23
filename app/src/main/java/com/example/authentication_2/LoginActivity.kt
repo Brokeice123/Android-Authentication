@@ -8,6 +8,7 @@ import android.database.sqlite.SQLiteDatabase
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
+import android.view.WindowManager
 
 class LoginActivity : AppCompatActivity() {
 
@@ -55,6 +56,11 @@ class LoginActivity : AppCompatActivity() {
             startActivity(gotosignup)
             finish()
         }
+
+        window.setFlags(
+            WindowManager.LayoutParams.FLAG_FULLSCREEN,
+            WindowManager.LayoutParams.FLAG_FULLSCREEN
+        )
 
     }
 

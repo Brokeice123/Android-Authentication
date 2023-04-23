@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".MainActivity">
 
     <EditText
@@ -12,13 +13,14 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="40dp"
-        android:layout_marginTop="220dp"
+        android:layout_marginTop="250dp"
         android:layout_marginEnd="40dp"
         android:drawableStart="@drawable/ic_person"
         android:drawablePadding="16dp"
         android:ems="10"
         android:hint="Enter First Name"
         android:inputType="text"
+        android:textColor="#0B0A0A"
         android:textColorHint="#6C6A6A" />
 
     <EditText
@@ -27,13 +29,14 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="40dp"
-        android:layout_marginTop="300dp"
+        android:layout_marginTop="330dp"
         android:layout_marginEnd="40dp"
         android:drawableStart="@drawable/ic_person"
         android:drawablePadding="16dp"
         android:ems="10"
         android:hint="Enter Second Name"
         android:inputType="text"
+        android:textColor="#0B0A0A"
         android:textColorHint="#6C6A6A" />
 
     <EditText
@@ -42,13 +45,14 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="40dp"
-        android:layout_marginTop="380dp"
+        android:layout_marginTop="410dp"
         android:layout_marginEnd="40dp"
         android:drawableStart="@drawable/ic_email"
         android:drawablePadding="16dp"
         android:ems="10"
         android:hint="Enter Email"
         android:inputType="textEmailAddress"
+        android:textColor="#0B0A0A"
         android:textColorHint="#6C6A6A" />
 
     <EditText
@@ -57,13 +61,14 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="40dp"
-        android:layout_marginTop="460dp"
+        android:layout_marginTop="490dp"
         android:layout_marginEnd="40dp"
         android:drawableStart="@drawable/ic_password"
         android:drawablePadding="16dp"
         android:ems="10"
         android:hint="Enter Password"
         android:inputType="textPassword"
+        android:textColor="#0B0A0A"
         android:textColorHint="#6C6A6A" />
 
     <Button
@@ -71,7 +76,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="520dp"
+        android:layout_marginTop="550dp"
         android:background="@drawable/buttons"
         android:text="Create Account" />
 
@@ -80,7 +85,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="600dp"
+        android:layout_marginTop="630dp"
         android:background="@drawable/buttons"
         android:text="Login" />
 
@@ -96,6 +101,17 @@
         android:layout_height="50dp"
         android:layout_alignParentBottom="true"
         android:background="@drawable/login_bottom" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        android:fontFamily="@font/pacifico"
+        android:text="SIGNUP PAGE"
+        android:textColor="#6953B8"
+        android:textSize="40sp" />
 
 
 </RelativeLayout>

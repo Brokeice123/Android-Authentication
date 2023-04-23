@@ -9,6 +9,7 @@ import android.widget.EditText
 import android.content.ContentValues
 import android.database.sqlite.SQLiteDatabase
 import android.widget.Toast
+import android.view.WindowManager
 
 class MainActivity : AppCompatActivity() {
 
@@ -75,10 +76,10 @@ class MainActivity : AppCompatActivity() {
           finish()
         }
 
-
-
-
-
+      window.setFlags(
+        WindowManager.LayoutParams.FLAG_FULLSCREEN,
+        WindowManager.LayoutParams.FLAG_FULLSCREEN
+      )
 
 
     }
