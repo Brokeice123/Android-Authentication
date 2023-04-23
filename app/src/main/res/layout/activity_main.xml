@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="40dp"
     tools:context=".MainActivity">
 
     <EditText
@@ -12,7 +11,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
         android:ems="10"
         android:hint="Enter First Name"
         android:inputType="text"
@@ -23,9 +24,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="190dp"
+        android:layout_marginTop="285dp"
         android:ems="10"
         android:hint="Enter Second Name"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
         android:inputType="text"
         android:textColorHint="#6C6A6A" />
 
@@ -34,9 +37,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="260dp"
+        android:layout_marginTop="345dp"
         android:ems="10"
         android:hint="Enter Email"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
         android:inputType="textEmailAddress"
         android:textColorHint="#6C6A6A" />
 
@@ -45,10 +50,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="350dp"
+        android:layout_marginTop="420dp"
         android:ems="10"
         android:hint="Enter Password"
         android:inputType="textPassword"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
         android:textColorHint="#6C6A6A" />
 
     <Button
@@ -56,7 +63,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="420dp"
+        android:layout_marginTop="490dp"
         android:text="Create Account" />
 
     <Button
@@ -64,7 +71,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="500dp"
+        android:layout_marginTop="550dp"
         android:text="Login" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="160dp"
+        android:background="@drawable/login_design" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/login_bottom" />
+
 
 </RelativeLayout>
