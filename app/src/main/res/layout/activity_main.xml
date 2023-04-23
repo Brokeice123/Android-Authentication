@@ -11,9 +11,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="220dp"
         android:layout_marginStart="40dp"
+        android:layout_marginTop="220dp"
         android:layout_marginEnd="40dp"
+        android:drawableStart="@drawable/ic_person"
+        android:drawablePadding="16dp"
         android:ems="10"
         android:hint="Enter First Name"
         android:inputType="text"
@@ -24,11 +26,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="285dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="40dp"
+        android:drawableStart="@drawable/ic_person"
+        android:drawablePadding="16dp"
         android:ems="10"
         android:hint="Enter Second Name"
-        android:layout_marginStart="40dp"
-        android:layout_marginEnd="40dp"
         android:inputType="text"
         android:textColorHint="#6C6A6A" />
 
@@ -37,11 +41,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="345dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginEnd="40dp"
+        android:drawableStart="@drawable/ic_email"
+        android:drawablePadding="16dp"
         android:ems="10"
         android:hint="Enter Email"
-        android:layout_marginStart="40dp"
-        android:layout_marginEnd="40dp"
         android:inputType="textEmailAddress"
         android:textColorHint="#6C6A6A" />
 
@@ -50,12 +56,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="420dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="460dp"
+        android:layout_marginEnd="40dp"
+        android:drawableStart="@drawable/ic_password"
+        android:drawablePadding="16dp"
         android:ems="10"
         android:hint="Enter Password"
         android:inputType="textPassword"
-        android:layout_marginStart="40dp"
-        android:layout_marginEnd="40dp"
         android:textColorHint="#6C6A6A" />
 
     <Button
@@ -63,7 +71,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="490dp"
+        android:layout_marginTop="520dp"
+        android:background="@drawable/buttons"
         android:text="Create Account" />
 
     <Button
@@ -71,19 +80,20 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="550dp"
+        android:layout_marginTop="600dp"
+        android:background="@drawable/buttons"
         android:text="Login" />
 
     <View
         android:id="@+id/view"
         android:layout_width="wrap_content"
-        android:layout_height="160dp"
+        android:layout_height="120dp"
         android:background="@drawable/login_design" />
 
     <View
         android:id="@+id/view2"
         android:layout_width="wrap_content"
-        android:layout_height="70dp"
+        android:layout_height="50dp"
         android:layout_alignParentBottom="true"
         android:background="@drawable/login_bottom" />
 

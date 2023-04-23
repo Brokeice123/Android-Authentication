@@ -50,6 +50,12 @@ class LoginActivity : AppCompatActivity() {
             cursor.close()
         }
 
+        lCreatebtn.setOnClickListener {
+            val gotosignup = Intent(this, MainActivity::class.java)
+            startActivity(gotosignup)
+            finish()
+        }
+
     }
 
     override fun onDestroy() {

@@ -12,10 +12,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="250dp"
-        android:ems="10"
         android:layout_marginStart="40dp"
+        android:layout_marginTop="200dp"
         android:layout_marginEnd="40dp"
+        android:drawableStart="@drawable/ic_person"
+        android:drawablePadding="16dp"
+        android:ems="10"
         android:hint="Enter Email"
         android:inputType="textEmailAddress"
         android:textColorHint="#858181" />
@@ -25,11 +27,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
+        android:layout_marginStart="40dp"
         android:layout_marginTop="350dp"
+        android:layout_marginEnd="40dp"
+        android:drawableStart="@drawable/ic_password"
+        android:drawablePadding="16dp"
         android:ems="10"
         android:hint="Enter Password"
-        android:layout_marginStart="40dp"
-        android:layout_marginEnd="40dp"
         android:inputType="textPassword"
         android:textColorHint="#858181" />
 
@@ -38,7 +42,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="490dp"
+        android:layout_marginTop="450dp"
+        android:background="@drawable/buttons"
         android:text="Login" />
 
     <Button
@@ -47,18 +52,19 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="550dp"
+        android:background="@drawable/buttons"
         android:text="Create Account" />
 
     <View
         android:id="@+id/view"
         android:layout_width="wrap_content"
-        android:layout_height="170dp"
+        android:layout_height="120dp"
         android:background="@drawable/login_design" />
 
     <View
         android:id="@+id/view2"
         android:layout_width="wrap_content"
-        android:layout_height="80dp"
+        android:layout_height="50dp"
         android:layout_alignParentBottom="true"
         android:background="@drawable/login_bottom" />
 </RelativeLayout>
